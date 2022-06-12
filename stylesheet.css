@@ -1,0 +1,201 @@
+body {
+    margin: 0px auto;
+    padding: 0;
+    font-family: "Raleway" , sans-serif;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-green {
+    color: #17AB4F;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-green {
+    background-color: #17AB4F;
+}
+
+.bg-orange {
+    background-color: #FFC500;
+}
+
+.mybuttons ul li {
+    transition: 0.3s;
+    border-radius: 7px;
+}
+
+.mybuttons ul li a {
+    font-weight: bold;
+    font-size: 1.13em;;
+}
+
+.mybuttons ul li:hover {
+    background: #FFC500;
+}
+
+.mybuttons ul li a:hover {
+    color: black !important;
+}
+
+.slider {
+    background: url(img/slider-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 6em 2em;
+}
+
+.slider h1 {
+    font-weight: bold;
+    font-size: 2.7em
+}
+
+.slider .card {
+    background: rgba(00,0,0,0.7);
+    border-radius: 20px;
+}
+
+.slider .card i {
+    font-size: 5em;
+    padding: 0px 10px;
+    color: #17AB4F;
+    line-height: 120px;
+}
+
+.slider .card p {
+    font-size: 1.35em;
+}
+
+.slider a {
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 7px;
+    border-bottom: 5px solid #FFA500;
+    transition: 0.3s;
+}
+
+.slider a:hover {
+    background-color: white;
+}
+
+.stats {
+    border-bottom: 5px solid #17AB4F;
+}
+
+.stats i {
+  margin:0px;
+  font-size:2.2em;
+  line-height:60px;
+  color:#ffffff;
+}
+
+.stats h2 {
+  margin:0px;
+  float:left;
+  font-size:1.1em;
+  color:#fff;
+}
+
+.stats h2 span {
+  font-weight:700;
+  font-size:1.6em;
+}
+
+.extra1 {
+    border-bottom: 5px solid #17AB4F;
+}
+
+.extra1 h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.extra1 p {
+    color: gray;
+    font-size: 1.4em;
+    line-height: 1.9em;
+}
+
+.extra1 a {
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: 0.3s;
+    border-bottom: 5px solid #FFA500;
+}
+
+.extra1 a:hover {
+    background-color: white;
+}
+
+.extra2 {
+    border-bottom: 5px solid #17AB4F;
+}
+
+.extra2 h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.extra2 p {
+    color: gray;
+    font-size: 1.4em;
+    line-height: 1.9em;
+}
+
+.investment {
+    background: url(img/invest-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 5px solid #17AB4F;
+}
+
+.investment h1{
+    font-size: 2.8em;
+    text-transform: uppercase;
+}
+
+.investment ul li {
+    font-size: 1.2em;
+}
+
+.investment card a:hover {
+    background-color: #17AB4F;
+}
+
+footer {
+    
+}
+
+footer ul li a {
+    transition: 0.3s;
+}
+
+footer ul li a:hover{
+    background-color: #17AB4F;
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    color: #FFC500;
+}
